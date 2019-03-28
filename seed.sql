@@ -1,8 +1,8 @@
 insert into todos
-    (todo_items, is_done, is_pending)
+    (todo_items, complete, pending)
 VALUES
-    ('buy groceries', 'no', 'no'),
-    ('do laundry', 'no', 'no'),
-    ('do homework', 'no', 'no'),
-    ('walk dog', 'yes', 'no'),
-    ('cook dinner', 'no', 'yes');
+    ('buy groceries', false, false),
+    ('do laundry', false, false),
+    ('do homework', false, false),
+    ('walk dog', false, false),
+    ('cook dinner', false, false);
